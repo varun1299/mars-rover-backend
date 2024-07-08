@@ -14,8 +14,6 @@ The Mars Rover Simulator is a web-based application that allows users to control
   - [Example Command Sequence](#example-command-sequence)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Place the rover on a 5x5 grid.
