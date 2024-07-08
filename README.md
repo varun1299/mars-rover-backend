@@ -143,3 +143,14 @@ Backend: Flask, Python
 Frontend: React, JavaScript, CSS
 Others: Flask-CORS, HTML
 
+## Application Screenshots
+
+![Screenshot (108)](https://github.com/varun1299/mars-rover-backend/assets/56631564/2e66e408-bdc1-454b-b8d0-124e05d7a20a)
+![Screenshot (109)](https://github.com/varun1299/mars-rover-backend/assets/56631564/831ff12d-23f8-4679-a2ba-e76b375c6fcb)
+![Screenshot (110)](https://github.com/varun1299/mars-rover-backend/assets/56631564/fe4090ca-b718-4b7e-af50-d24aa897d168)
+![Screenshot (111)](https://github.com/varun1299/mars-rover-backend/assets/56631564/96bcdf2f-1a74-4388-9d81-fe3bcd3da684)
+![Screenshot (112)](https://github.com/varun1299/mars-rover-backend/assets/56631564/151e05c1-aeec-4c63-8abe-48b14e913400)
+![Screenshot (113)](https://github.com/varun1299/mars-rover-backend/assets/56631564/2e1e2c17-894c-4cd3-a7bd-ea937a02df80)
+![Screenshot (114)](https://github.com/varun1299/mars-rover-backend/assets/56631564/03eada87-3d4a-4df9-bc46-7ec9298caf82)
+![Screenshot (115)](https://github.com/varun1299/mars-rover-backend/assets/56631564/1b43ed0d-e2a1-4c90-a981-38d0cd7c1bd9)
+
