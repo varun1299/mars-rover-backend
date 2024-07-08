@@ -114,8 +114,9 @@ MOVE
 LEFT
 MOVE
 REPORT
+
 Project Structure
-plaintext
+```
 Copy code
 mars-rover-simulator/
 │
@@ -133,7 +134,9 @@ mars-rover-simulator/
 │   └── package-lock.json
 ├── README.md            # Project readme
 └── .gitignore           # Git ignore file
+```
 Technologies Used
 Backend: Flask, Python
 Frontend: React, JavaScript, CSS
 Others: Flask-CORS, HTML
+
