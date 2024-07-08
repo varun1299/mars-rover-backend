@@ -90,30 +90,33 @@ Description: Send a command to control the Mars Rover.
 
 Request Body:
 
-json
-Copy code
+```json
 {
   "command": "PLACE 1,2,EAST"
 }
+```
 Responses:
-
-200 OK if the command is successfully executed.
-400 Bad Request if there is an error in the command.
+```
+200 OK # if the command is successfully executed.
+400 Bad Request # if there is an error in the command.
+```
 Commands
+```
 PLACE X,Y,FACING: Place the rover on the grid at position (X, Y) facing direction FACING (NORTH, EAST, SOUTH, WEST).
 MOVE: Move the rover one grid unit forward in the direction it is facing.
 LEFT: Rotate the rover 90 degrees to the left.
 RIGHT: Rotate the rover 90 degrees to the right.
 REPORT: Display the current position and facing direction of the rover.
+```
 Example Command Sequence
-plaintext
-Copy code
+```
 PLACE 1,2,EAST
 MOVE
 MOVE
 LEFT
 MOVE
 REPORT
+```
 
 Project Structure
 ```
