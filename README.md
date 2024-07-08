@@ -38,45 +38,38 @@ cd mars-rover-simulator
 Create a virtual environment and activate it:
 
 ```bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 Install the required Python packages:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 Run the Flask app:
 
 ```bash
-Copy code
 python app.py
 ```
 Frontend Setup
 Navigate to the frontend directory:
 
 ```bash
-Copy code
 cd frontend
 ```
 Install the required npm packages:
 
 ```bash
-Copy code
 npm install
 ```
 Build the React app:
 
 ```bash
-Copy code
 npm run build
 ```
 Start the React app:
 
 ```bash
-Copy code
 npm start
 ```
 Usage
