@@ -8,7 +8,8 @@ function createWindow () {
     height: 600,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    icon: path.join(__dirname, '../frontend/public/rover.png')
   });
 
   win.loadURL('http://localhost:5000');  // URL where Flask app is running
