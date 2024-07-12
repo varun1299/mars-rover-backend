@@ -4,7 +4,7 @@ import json
 import os
 
 
-app = Flask(__name__, static_folder='C:/Users/dhaka/Downloads/mars-rover-backend/frontend/build')
+app = Flask(__name__, static_folder='../frontend/build')
 CORS(app)  # Enable CORS for all routes
 
 
