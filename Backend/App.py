@@ -38,7 +38,7 @@ class Rover:
     # Method to place the rover on the grid
 
     def place(self, x, y, facing):
-        if facing in self.DIRECTIONS and 0 <= x < 5 and 0 <= y < 5:  # Encapsulation: using class constants and attributes
+        if facing in self.DIRECTIONS and 0 <= x < 5 and 0 <= y < 5: 
             self.x = x
             self.y = y
             self.facing = facing
@@ -68,7 +68,7 @@ class Rover:
     def left(self):
         if self.facing is not None:
             current_index = self.DIRECTIONS.index(self.facing)
-            self.facing = self.DIRECTIONS[(current_index + 3) % 4]  # Polymorphism: changing behavior based on current state
+            self.facing = self.DIRECTIONS[(current_index + 3) % 4] 
             data = {"message": "Rover turned LEFT successfully"}
             return Response(json.dumps(data), status=200)
         else:
@@ -79,7 +79,7 @@ class Rover:
     def right(self):
         if self.facing is not None:
             current_index = self.DIRECTIONS.index(self.facing)
-            self.facing = self.DIRECTIONS[(current_index + 1) % 4]  # Polymorphism: changing behavior based on current state
+            self.facing = self.DIRECTIONS[(current_index + 1) % 4]  
             data = {"message": "Rover turned RIGHT successfully"}
             return Response(json.dumps(data), status=200)
         else:
@@ -89,7 +89,7 @@ class Rover:
 
     def report(self):
         if self.x is not None and self.y is not None and self.facing is not None:
-            data = {"x": self.x, "y": self.y, "facing": self.facing}  # Abstraction: hiding complex implementation details
+            data = {"x": self.x, "y": self.y, "facing": self.facing} 
             return Response(json.dumps(data), status=200)
         else:
             return Response("The rover is not on the table.", status=400)
@@ -109,7 +109,7 @@ def command():
 
     parts = command.strip().split()
 
-    # Encapsulation: invoking rover methods to perform actions
+   
 
     if parts[0] == 'PLACE' and len(parts) == 2: 
         try:
